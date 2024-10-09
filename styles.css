@@ -1,63 +1,67 @@
-* {
-    box-sizing: border-box;
+ /* Estilos generales */
+ body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
     margin: 0;
     padding: 0;
+    background-image: url(https://www.shutterstock.com/image-illustration/tutor-word-isolated-on-white-260nw-698310355.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
 }
 
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f9;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;   
+h2 {
+    color: #0ad4db;
 }
 
-.container {
-    background-color: #f9fdfd;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(4, 195, 243, 0.685);
-    width: 100%;
-    max-width: 500px;
-}
-
-h1 {
-    text-align: center;
-    color: #333;
-    margin-bottom: 20px;
-}
-
-form {
-    display: flex;
-    flex-direction: column;
-}
-
-label {
-    margin-bottom: 5px;
-    color: #333;
-}
-
-input[type="text"],
-input[type="tel"],
-input[type="email"] {
-    padding: 10px;
-    margin-bottom: 15px;
-    border: 1px solid #1032f3;
-    border-radius: 4px;
-    font-size: 16px;
-    width: 100%;
-}
-input[type="submit"] {
-    background-color: #06921d;
+button {
+    background-color: #0869fc;
     color: white;
-    padding: 10px;
+    padding: 10px 20px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    font-size: 16px;
 }
 
-input[type="submit"]:hover {
-    background-color: #1c26ac;
+button:hover {
+    background-color: #0a6fe4;
 }
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    
+}
+
+form {
+    margin-top: 20px;
+}
+
+input {
+    padding: 10px;
+    margin: 5px 0;
+    width: 100%;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+#perfilBtn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    display: none;
+    
+}
+
+#cerrarSesionBtn {
+    position: absolute;
+    top: 20px;
+    right: 100px;
+    display: none;
+}
+
